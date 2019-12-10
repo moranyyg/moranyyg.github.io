@@ -59,7 +59,7 @@ class Home extends Language {
               }
             </div>
             <br />
-            <div><a href="https://gitee.com/weixin54321a/ApiStarter/stargazers"><img src="https://gitee.com/weixin54321a/ApiStarter/badge/star.svg?theme=white" alt="star" /></a> &nbsp;&nbsp;<a href="https://gitee.com/weixin54321a/ApiStarter/members"><img src="https://gitee.com/weixin54321a/ApiStarter/badge/fork.svg?theme=white" alt="fork" /></a></div>
+            <div />
           </div>
           <div className="animation animation1" />
           <div className="animation animation2" />
