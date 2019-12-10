@@ -12,7 +12,7 @@ export default {
           type: 'primary',
         },
         {
-          text: '查看Git',
+          text: '查看源码',
           link: 'https://gitee.com/weixin54321a/ApiStarter',
           type: 'normal',
         },
@@ -84,7 +84,7 @@ export default {
           type: 'primary',
         },
         {
-          text: 'View on Github',
+          text: 'View Source',
           link: '',
           type: 'normal',
         },
