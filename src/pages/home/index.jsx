@@ -54,10 +54,12 @@ class Home extends Language {
             </div>
             <p className="product-desc">{dataSource.brand.briefIntroduction}</p>
             <div className="button-area">
-            {
-              dataSource.brand.buttons.map(b => <Button type={b.type} key={b.type} link={b.link} target={b.target}>{b.text}</Button>)
-            }
+              {
+                dataSource.brand.buttons.map(b => <Button type={b.type} key={b.type} link={b.link} target={b.target}>{b.text}</Button>)
+              }
             </div>
+            <br />
+            <div><a href="https://gitee.com/weixin54321a/ApiStarter/stargazers"><img src="https://gitee.com/weixin54321a/ApiStarter/badge/star.svg?theme=white" alt="star" /></a> &nbsp;&nbsp;<a href="https://gitee.com/weixin54321a/ApiStarter/members"><img src="https://gitee.com/weixin54321a/ApiStarter/badge/fork.svg?theme=white" alt="fork" /></a></div>
           </div>
           <div className="animation animation1" />
           <div className="animation animation2" />
@@ -77,11 +79,11 @@ class Home extends Language {
         <section className="feature-section">
           <h3>{dataSource.features.title}</h3>
           <ul>
-          {
-            dataSource.features.list.map((feature, i) => (
-              <Item feature={feature} key={i} />
-            ))
-          }
+            {
+              dataSource.features.list.map((feature, i) => (
+                <Item feature={feature} key={i} />
+              ))
+            }
           </ul>
         </section>
         <section className="start-section">
@@ -90,7 +92,7 @@ class Home extends Language {
               <h3>{dataSource.start.title}</h3>
               <p>{dataSource.start.desc}</p>
               <a href={getLink(dataSource.start.button.link)} target={dataSource.start.button.link || '_self'}>{dataSource.start.button.text}</a>
-              </div>
+            </div>
             <div className="right-part"><img src={getLink('/img/quick_start.png')} /></div>
           </div>
         </section>
@@ -98,11 +100,11 @@ class Home extends Language {
           <h3>{dataSource.users.title}</h3>
           <p>{dataSource.users.desc}</p>
           <div className="users">
-          {
-            dataSource.users.list.map((user, i) => (
-              <img src={getLink(user)} key={i} />
-            ))
-          }
+            {
+              dataSource.users.list.map((user, i) => (
+                <img src={getLink(user)} key={i} />
+              ))
+            }
           </div>
         </section>
         <Footer logo="/img/dubbo_gray.png" language={language} />

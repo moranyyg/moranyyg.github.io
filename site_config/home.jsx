@@ -29,17 +29,17 @@ export default {
         {
           img: '/img/feature_transpart.png',
           title: '前后分离',
-          content: '接口与页面分离,通过json交互数据',
+          content: '接口与页面分离,通过json交互数据,动静分离,项目解耦',
         },
         {
           img: '/img/feature_loadbalances.png',
           title: '基础封装',
-          content: '通用的java服务器开发脚手架封装,无需繁琐环境搭建配置,基础工具类封装',
+          content: '通用的java服务器开发脚手架封装,无需繁琐环境搭建配置,clone即用,基础工具类封装,规范常用操作.',
         },
         {
           img: '/img/feature_service.png',
           title: '后台通用管理系统',
-          content: '基于vue的后台管理系统,简单方便',
+          content: '基于vue的后台管理系统,简单方便,无需再搭建后台管理系统框架,整体布局等冗余细节',
         },
         {
           img: '/img/feature_hogh.png',
@@ -100,33 +100,33 @@ export default {
       list: [
         {
           img: '/img/feature_transpart.png',
-          title: 'feature1',
-          content: 'feature description',
+          title: 'Separation before and after',
+          content: 'Interface and page separation, data interaction through JSON, dynamic and static separation, project decoupling',
         },
         {
           img: '/img/feature_loadbalances.png',
-          title: 'feature2',
-          content: 'feature description',
+          title: 'Basic packaging',
+          content: 'The general java server development scaffold package, does not need the tedious environment to build the configuration, the clone is used, the basic tool class package, the standard commonly used operation',
         },
         {
           img: '/img/feature_service.png',
-          title: 'feature3',
-          content: 'feature description',
+          title: 'Background general management system',
+          content: 'The background management system based on Vue is simple and convenient. There is no need to build the background management system framework, overall layout and other redundant details',
         },
         {
           img: '/img/feature_hogh.png',
-          title: 'feature4',
-          content: 'feature description',
+          title: 'General authority management',
+          content: 'The project encapsulates the general role resource permissions in an abstract way, and basic permission management can be realized without extra effort',
         },
         {
           img: '/img/feature_runtime.png',
-          title: 'feature5',
-          content: 'feature description',
+          title: 'Modular development',
+          content: 'Based on Maven modular development, the modules are decoupled and do not interfere with each other',
         },
         {
           img: '/img/feature_maintenance.png',
-          title: 'feature6',
-          content: 'feature description',
+          title: 'Rich documentation',
+          content: 'In addition to the basic project use documents, the project has certain technical expansion for the technical stack involved, which is convenient to start',
         }
       ]
     },
@@ -140,8 +140,8 @@ export default {
       },
     },
     users: {
-      title: 'users',
-      desc: <span>some description</span>,
+      title: '',
+      desc: '',
       list: [],
     },
   },

@@ -1,6 +1,6 @@
 {
   "filename": "start.md",
-  "__html": "<h1>快速开始</h1>\n<ol>\n<li>1</li>\n<li>2</li>\n<li>3</li>\n</ol>\n",
+  "__html": "<h1>快速开始</h1>\n<ol>\n<li>克隆项目到本地Ide</li>\n<li>安装数据库,更新application-dev/prod.yml数据源账号密码配置,导入/docs/init.sql文件,初始化数据库</li>\n<li>配置Maven环境,拉取jar包</li>\n<li>安装lombok插件,重启idea</li>\n<li>执行api-starter-admin-api目录下ApiAdminApplication类main函数,启动项目管理系统服务端</li>\n<li>安装node.js</li>\n<li>进入api-starter-admin目录,cmd命令行执行npm install</li>\n<li>执行 npm run dev 浏览器访问 localhost:9525访问后台管理系统</li>\n<li>执行api-starter-api目录下ApiApplication类main函数,启动restful Api服务端</li>\n<li>使用postman访问Api接口获得响应</li>\n</ol>\n",
   "link": "\\zh-cn\\docs\\start.html",
   "meta": {}
 }
